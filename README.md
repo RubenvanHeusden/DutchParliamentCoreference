@@ -1,5 +1,6 @@
 # DutchParliamentCoreference
 This repository contains both the code and instructions on how to run the experiments and obtain the data used in this article.
+In the paper, two systems are run on the DutchParliament dataset, namely the DutchCoref model (https://github.com/andreasvc/dutchcoref) and the e2eDutch model(https://github.com/Filter-Bubble/e2e-Dutch). The code in this repository is a copy of the code found in the original repositories, with some minor adjustements.
 
 ## Downloading the dataset
   - The DutchParliament dataset is publicaly available, and can be downloaded from the following link: https://doi.org/10.17026/dans-x86-adrt
