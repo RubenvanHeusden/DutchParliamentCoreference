@@ -9,6 +9,10 @@ In the paper, two systems are run on the DutchParliament dataset, namely the Dut
 ## Running the experiments
 - For the experiments using the speaker metadata, the e2eDutch coference resolution model was adapted so that it works with the addition of speaker metadata.
 
+### DutchCoref model
+- For the DutchCoref model, the text data of the Parliament dataset has to be augmented with dependency tree information.
+- The first step in this process is to run the `prepare_data_for_dutchcoref.py` script, which will create a new folder with the `xml` files containing the parsed sentences of the original text file.
+
 
 ## Extra notes
 
